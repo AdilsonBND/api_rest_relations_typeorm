@@ -1,0 +1,40 @@
+
+### Adicionar Disciplina
+POST http://127.0.0.1:3000/subject HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Java"
+}
+
+### Adicionar Sala
+
+POST http://127.0.0.1:3000/room HTTP/1.1
+content-type: application/json
+
+{
+    "name": "POO"
+}
+
+### Adicionar vídeo a uma Sala
+
+POST http://127.0.0.1:3000/room/1/create HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Introdução II",
+    "url": "https://google.com"
+}
+
+### Adicionar Disciplina a uma Sala
+
+POST http://127.0.0.1:3000/room/2/subject
+content-type: application/json
+
+{
+    "subject_id": 1
+}
+
+### Listar todas as salas com os relacionamentos
+
+GET http://127.0.0.1:3000/room HTTP/1.1
