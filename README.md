@@ -15,4 +15,4 @@
 * Após baixar o repositório certifique-se de que tenha dado permissões ao diretório .docker/entrypoints.sh e dentro da pasta do repositório rode o comando:
 <pre> docker compose up</pre>
 
-* Para testar as requisições POST e GET pode utilizar-se da extensão do VSCODE chamada "REST CLIENT", tendo no próprio repositório um arquivo de nome 'teste_requisicao.http' onde poderá realizar os teste.
+* Para testar as requisições POST e GET pode utilizar-se da extensão do VSCODE chamada "REST CLIENT", tendo no próprio repositório um arquivo de nome 'teste_requisicao.http' onde poderá realizar os testes.
